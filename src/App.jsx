@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <h2>Hola Mundo!</h2>
+      <h2 className='titulo'>Hola Mundo!</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum facere corrupti officiis dicta alias suscipit reprehenderit expedita eligendi et, modi dolorum, nihil molestiae consequuntur, praesentium inventore odio temporibus commodi!</p>
     <button onClick={onClick}>{label}</button>
         </div>

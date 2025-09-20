@@ -1,1 +1,19 @@
+.titulo {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(169, 169, 182);
+}
 
+.boton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: darkblue;
+}
