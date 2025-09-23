@@ -3,7 +3,7 @@ ReadableStreamDefaultController
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div><h1 className="HeaderClass">Hola!!!</h1></div>
   )
 }
 

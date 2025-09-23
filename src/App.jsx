@@ -12,8 +12,8 @@ function App() {
     return <button onClick={onClick}>{label}</button>
   }
 
-  const label = 'dale, dale con el look'
-  const onClick = () => alert('en un avión!')
+  const label = 'dale, dale con el click'
+  const onClick = () => alert('Learn!')
 
   
 
