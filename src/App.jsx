@@ -1,29 +1,23 @@
-
-import React from 'react'
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import Headers from "./components/Header/Headers";
 import './App.css'
-import './components/Nav/Nav.jsx'
-import Nav from './components/Nav/Nav.jsx'
-import Header from './components/Header/Headers.jsx'
+
 
 
 function App() {
+const saludo = "Bienvenidos al WooCommerce";
 
-  const Buttom = ({label, onClick})=>{
-    return <button onClick={onClick}>{label}</button>
-  }
-
-  const label = 'dale, dale con el click'
-  const onClick = () => alert('Learn!')
 
   
 
   return (
-    <div>
-      <Header></Header>
-      <Nav></Nav>
-           <h2 className='titulo'>APP de prueba</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum facere corrupti officiis dicta alias suscipit reprehenderit expedita eligendi et, modi dolorum, nihil molestiae consequuntur, praesentium inventore odio temporibus commodi!</p>
-    <button onClick={onClick}>{label}</button>
+    <div className='app'>
+      <Headers />
+      <NavBar />
+<ItemListContainer greeting={ "HOLasssss" }/>
+<h1 className="saludo">{saludo}</h1>
+<h2>chau</h2>
         </div>
   )
 }

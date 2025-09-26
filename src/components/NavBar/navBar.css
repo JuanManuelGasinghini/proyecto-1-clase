@@ -1,0 +1,26 @@
+.apellido {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    background-color: rgb(20, 154, 109);
+}
+
+.ulTermo{
+    display: flex;
+    box-sizing: border-box;
+}
+.Termo{
+    display: flex;
+    flex-direction: row;
+            width: 100%;
+        height: 100%;
+    background-color: rgb(90, 92, 173);
+    color: aqua;
+}
+
+.Guante{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    color: rgb(219, 102, 189);
+}

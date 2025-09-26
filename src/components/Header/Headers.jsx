@@ -1,10 +1,11 @@
-ReadableStreamDefaultController
+import './headers.css'
 
 
-const Header = () => {
+
+const Headers = () => {
   return (
-    <div><h1 className="HeaderClass">Hola!!!</h1></div>
+    <div className='Nombre'><h3>Headers</h3></div>
   )
 }
 
-export default Header;
+export default Headers
