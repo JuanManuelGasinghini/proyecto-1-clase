@@ -2,7 +2,8 @@ import NavBar from "./components/NavBar/NavBar"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Headers from "./components/Header/Headers";
 import './App.css'
-
+import Logo from "./assets/img/LogoFinal.jpg"; 
+import Carrito from "./assets/img/carrito.png";
 
 
 function App() {
@@ -18,7 +19,9 @@ const saludo = "Bienvenidos al WooCommerce";
 <ItemListContainer greeting={ "HOLasssss" }/>
 <h1 className="saludo">{saludo}</h1>
 <h2>chau</h2>
-        </div>
+<img src={Logo} alt=""/>
+<img src={Carrito} alt="" /></div>
+        
   )
 }
 
