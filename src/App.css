@@ -1,4 +1,8 @@
-
+.app {
+    display: flex;
+    flex-direction: column;
+       background-image: url(../../assets/img/fondo.png);
+}
 .titulo {
     color: blue;
     text-align: center;
@@ -19,33 +23,6 @@
     background-color: darkblue;
 }
 
-.HeaderClass {
-    display: flex;
-    color: aqua;
-    background-color: blueviolet;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.NavBar{
-    display: flex;
-    background-color: rgb(20, 154, 109);
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-}
-
-.ulClass{
-    display: flex;
-    background-color: chocolate;
-    width: 100%;
-    height: 100%;
-   border-radius: 75%;
-   padding: 5%;
-   margin: 5%;
-}
 
 .saludo {
     display: flex;
