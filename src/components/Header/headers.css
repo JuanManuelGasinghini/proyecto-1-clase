@@ -16,7 +16,9 @@ height: 50%;
 
 
 .TituloHeader {
-    color: chartreuse;
+    background-color: transparent;
+color: rgb(219, 228, 45);
+font-size: 45px;
 }
 
 .LogoHeader {
