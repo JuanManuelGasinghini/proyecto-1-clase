@@ -1,46 +1,32 @@
 .navbar {
-    display: flex;
-    flex-direction: column;
+display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-image: url(../../assets/img/fondo.png);
+    align-items: baseline;
+    background-image: url(../../assets/img/Fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: start;
-
+        color: rgb(219, 228, 45);
 }
 .BarraInicialNav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-   justify-content:space-around;
-    align-items: center;
+    justify-content: baseline;
+    align-items: baseline;
+    width: 33%;
+    height: 33%;
 }
 
-.Saludar{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 10%;
-    background-color: transparent;
-}
-.Presentacion{    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 10%;
-    background-color: transparent;
 
-}
     .logo {
     display: flex;
+justify-content: baseline;
     width: 50%;
     height: 50%;
     padding: 20%;
     margin: 20%;
+
 }
 
 .carrito {
@@ -53,23 +39,18 @@
     width: 10%;
     height: 10%;
 }
-.Presentacion {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        padding: 10%;
-        background-color: transparent;
-color: rgb(219, 228, 45);
-font-size: 45px;
-}
+
 
 .nav-links{
     display: flex;
     flex-direction: column;
+    width: 33%;
+    height: 33%;
 }
+
+
 .ListaDeEntrada{
     display: flex;
-    box-sizing: border-box;
         flex-direction: row;
             width: 100%;
         height: 100%;
@@ -106,6 +87,6 @@ font-size: 45px;
     width: 100%;
     height: 100%;
     background-color: transparent;
-   color: rgb(219, 228, 45);
+   color: rgb(137, 144, 11);
    font-size: 45px;
 }

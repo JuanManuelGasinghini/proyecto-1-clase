@@ -1,6 +1,7 @@
 .cart-widget {
     display: flex;
     flex-direction: row;
+    justify-content: end;
     align-items: center;
     gap: 5px;
     width: 100%;
@@ -13,5 +14,5 @@
     display: flex;
     font-size: 25px;
     font-weight: bold;
-    color: #ce0c0c;
+    color: rgb(33, 33, 27);
 }

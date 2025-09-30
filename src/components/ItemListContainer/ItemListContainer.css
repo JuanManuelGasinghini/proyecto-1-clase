@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-image: url(../../assets/img/fondo.png);
+    background-image: url(../../assets/img/Fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    color: rgb(219, 228, 45);
+    background-position: start;
+        color: rgb(219, 228, 45);
 }
 
 .Llamada{
