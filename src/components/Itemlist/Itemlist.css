@@ -1,0 +1,7 @@
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: brown;
+  color: rgb(14, 108, 126);
+}

@@ -7,12 +7,16 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: start;
-        color: rgb(219, 228, 45);
+        color: rgb(35, 35, 33);
 }
 
 .Llamada{
         display: flex;
     flex-direction: column;
 background-color: transparent;
-color: rgb(219, 228, 45);
+color: rgb(28, 28, 27);
+}
+
+.product {
+    color: black;
 }
