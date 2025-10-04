@@ -18,9 +18,17 @@
     {
         "id": 3,
         "name": "Auriculares",
-        "description": "Auriculares Negros",
+        "description": "Auricular Negro",
         "stock": 16,
         "image": "",
         "price": 200
+    },
+    {
+        "id": 4,
+        "name": "Monitor",
+        "description": "Monitor Led",
+        "stock": 16,
+        "image": "",
+        "price": 2000
     }
 ]

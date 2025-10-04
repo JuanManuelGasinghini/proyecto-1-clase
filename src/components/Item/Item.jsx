@@ -2,9 +2,11 @@ import "./Item.css"
 
 const Item = ({ product }) => {
   return (
-    <div>
-      <p>{product.name}</p>
-      <p>precio: {product.price}</p>
+    <div className="ItemGeneral">
+      <img className="ItemProductIMG" src="" alt="" />
+      <p className="ItemProductName">{product.name}</p>
+      <p className="ItemProductDescrip">{product.description}</p>
+      <p className="ItemProductPrecio">{product.price}</p>
     </div>
   )
 }
