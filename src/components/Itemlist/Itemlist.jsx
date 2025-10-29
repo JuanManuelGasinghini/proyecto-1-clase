@@ -1,9 +1,10 @@
-import Item from '../Item/Item'
-import './itemlist.css'
+import Item from '../Item/Item';
+import './itemlist.css';
 
 const Itemlist = ({ products}) => {
   return (
-    <div className='item-list'>{
+    <div className='item-list'> 
+    {
   products.map( (product) => (
     <Item product={product} key={product.id} />
   
