@@ -1,11 +1,10 @@
-//import {FaCartShoping} from 'react-icons/fa6'
-import Carrito from "../../assets/img/Carritopng.png";
+import { BiCart } from 'react-icons/bi';
 import './CartWidget.css'
 
 const CartWidget = () => {
   return (
     <div className="cart-widget">
-      <img className="carrito" src={Carrito} alt="icono de carrito de compras" />
+      <BiCart size={24}/>
         <p className="numeros">2</p>
     </div>
   )
