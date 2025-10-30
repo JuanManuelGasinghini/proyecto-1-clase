@@ -1,87 +1,35 @@
-.navbar {
-display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-  background-image: url(../../assets/img/Fondo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: start;
-        color: rgb(219, 228, 45);
+.navbar{
+ background-image: url(../../assets/img/Fondo.png);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid rgb(56, 6, 6);
+  padding: 10px 30px;
+  margin: 0 0 50px 0;
+  font-size: 20px;
+  height: 120px;
 }
-.TodoElNav{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+.navbar .logo{
+  width: 110px;
+  height: 110px;
 }
-.BarraInicialNav{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: baseline;
-    width: 33%;
-    height: 33%;
+.categories{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: 400;
 }
-
-
-    .logo {
-    display: flex;
-justify-content: baseline;
-    width: 100%;
-    height: 100%;
+.categories li{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0 5px;
 }
-
-.nav-links{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: 33%;
+.categories .category{
+  color: rgb(240, 222, 55);
+  text-decoration: none;
 }
-
-
-.ListaDeEntrada{
-    display: flex;
-        flex-direction: row;
-            width: 100%;
-        height: 100%;
-
-}
-
-.Cañerias{
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-color: rgb(219, 228, 45);
-font-size: 45px;
-
-}
-.Griferías{
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-  color: rgb(219, 228, 45);
-  font-size: 45px;
-}
-
-.Accesorios{
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-   color: rgb(137, 144, 11);
-   font-size: 45px;
-}
-
-.CartWidgetEnNavBar {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+.categories li:hover{
+  cursor: pointer;
+ color: rgb(240, 222, 55);
 }

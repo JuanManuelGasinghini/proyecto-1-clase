@@ -1,5 +1,3 @@
-//import products from "./products.json"
-
 const products = [
     {
         "id": 1,
@@ -17,7 +15,7 @@ const products = [
         "stock": 6,
         "image": "/image/mouse.jpg",
         "price": 300,
-        "category": "perifericos"
+        category: "perifericos"
     },
     {
         "id": 3,
@@ -26,7 +24,7 @@ const products = [
         "stock": 16,
         "image": "/image/auriculares.jpg",
         "price": 200,
-        "category": "perifericos"
+        category: "perifericos"
     },
     {
         "id": 4,

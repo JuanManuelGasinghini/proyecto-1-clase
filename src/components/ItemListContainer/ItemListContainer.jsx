@@ -11,21 +11,30 @@ const ItemListContainer = ({ greeting }) => {
   const { category } = useParams();
 
   useEffect(() => {
-
-    setLoading(true);
+     setLoading(true);
 
     getProducts()
-      .then((data) => {
-        setProducts(data);
+            .then((data)=> {
+        if(category){
+          const productsFilter = data.filter((product)=> product.category === category );
+          setProducts(productsFilter);
+        }else{
+          setProducts(data);
+        }
       })
-    }, [])
+      .finally(()=> {
+        setLoading(false);
+})
 
+
+  }, [category])
     return (
-    <div className="item-list-container">
-<h2 className="Llamada">{greeting}</h2>
-<ItemList products={products} />
-</div>
-    )
-  }
-
+   <div className="itemlistcontainer">
+      <h2>{greeting}</h2>
+      {
+        loading ? <div>Cargando...</div> : <ItemList products={products} />
+      }
+    </div>
+  )
+}
 export default ItemListContainer
