@@ -8,15 +8,15 @@ import { useParams } from 'react-router-dom';
 const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { category } = useParams();
+  const { categoryId } = useParams();
 
   useEffect(() => {
      setLoading(true);
 
     getProducts()
             .then((data)=> {
-        if(category){
-          const productsFilter = data.filter((product)=> product.category === category );
+        if(categoryId){
+          const productsFilter = data.filter((product)=> product.category === categoryId );
           setProducts(productsFilter);
         }else{
           setProducts(data);
@@ -27,7 +27,7 @@ const ItemListContainer = ({ greeting }) => {
 })
 
 
-  }, [category])
+  }, [categoryId])
     return (
    <div className="itemlistcontainer">
       <h2>{greeting}</h2>
