@@ -1,39 +1,39 @@
 const products = [
     {
         id: 1,
-        name: "Teclado",
-        description: "Teclado 60%",
+        name: "Cañerias",
+        description: "Caños de termofusión",
         stock: 5,
-        image: "/image/teclado.jpg",
+        image: "/image/monoComando.jpg",
         price: 540,
-        category: "teclados"
+        category: "Cañerias"
     },
     {
         id: 2,
-        name: "Mouse",
-        description: "Mouse Rojo",
+        name: "Bachas",
+        description: "Bachas de loza",
         stock: 6,
-        image: "/image/mouse.jpg",
+        image: "/image/bachas.jpg",
         price: 300,
-        category: "mouse"
+        category: "Bachas"
     },
     {
         id: 3,
-        name: "Auriculares",
-        description: "Auricular Negro",
+        name: "Piezas",
+        description: "Todas las piezas para tu proyecto",
         stock: 16,
-        image: "/image/auriculares.jpg",
+        image: "/image/piezas.jpg",
         price: 200,
-        category: "auriculares"
+        category: "Piezas"
     },
     {
         id: 4,
-        name: "Monitor",
-        description: "Monitor Led",
+        name: "Accesorios",
+        description: "Todo para tu baño",
         stock: 16,
-        image: "/image/monoComando.jpg",
+        image: "/image/accesorios.jpg",
         price: 2000,
-        category: "monitores"
+        category: "Accesorios"
     }
     
 ]

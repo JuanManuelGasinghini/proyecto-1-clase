@@ -4,7 +4,7 @@ import './CartWidget.css'
 const CartWidget = () => {
   return (
     <div className="cart-widget">
-      <BiCart size={24}/>
+      <BiCart className='carrito' />
         <p className="numeros">2</p>
     </div>
   )

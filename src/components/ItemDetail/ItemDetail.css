@@ -1,0 +1,61 @@
+.item-detail{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+border-style: double;
+gap: 16px;
+ background-color: rgba(15, 200, 228, 0.84);
+    color: rgb(8, 9, 9);
+    font-size: 18px;
+}
+
+.item-detail-image-content{
+    display: flex;
+    width: 100%;
+height: 100%;
+}
+
+.item-detail-image{
+    display: flex;
+    width: 100%;
+height: 100%;
+}
+
+.item-data{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.itemD-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.itemD-name{
+display: flex;
+    color: black;
+           font-size: 30px;
+       margin: 5%;
+}
+
+.itemD-description{
+display: flex;
+    color: black;
+           font-size: 30px;
+       margin: 5%;
+}
+
+.itemC-precio{
+display: flex;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-size: 40px;
+       margin: 5%;
+}
