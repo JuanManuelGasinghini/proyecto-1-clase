@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ItemList from '../ItemList/ItemList.jsx';
+import ItemList from '../Itemlist/Itemlist.jsx';
 import './itemListContainer.css'
 import getProducts from '../../Data/products.js';
 import { useParams } from 'react-router-dom';

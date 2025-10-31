@@ -31,7 +31,7 @@ const products = [
         name: "Monitor",
         description: "Monitor Led",
         stock: 16,
-        image: "",
+        image: "/image/monoComando.jpg",
         price: 2000,
         category: "monitores"
     }
