@@ -32,7 +32,7 @@ const ItemListContainer = ({ greeting }) => {
    <div className="itemlistcontainer">
       <h2>{greeting}</h2>
       {
-        loading ? <div>Cargando...</div> : <ItemList products={products} />
+        loading ? <div className='Loading'><p className='cargando'>Cargando...</p></div> : <ItemList products={products} />
       }
     </div>
   )

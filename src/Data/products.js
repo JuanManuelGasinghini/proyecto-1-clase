@@ -21,7 +21,7 @@ const products = [
         id: 3,
         name: "Piezas",
         description: "Todas las piezas para tu proyecto",
-        stock: 16,
+        stock: 6,
         image: "/image/piezas.jpg",
         price: 200,
         category: "Piezas"
