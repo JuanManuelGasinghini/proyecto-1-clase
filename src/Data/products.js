@@ -34,7 +34,62 @@ const products = [
         image: "/image/accesorios.jpg",
         price: 2000,
         category: "Accesorios"
-    }
+    },
+        {
+        id: 5,
+        name: "Desagües",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Cañerias"
+    },
+        {
+        id: 6,
+        name: "Toalleros",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Piezas"
+    },
+        {
+        id: 7,
+        name: "Caños de gas",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Cañerias"
+    },
+        {
+        id: 8,
+        name: "Pileta de Lavadero",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Bachas"
+    },
+        {
+        id: 9,
+        name: "Codo 110",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Piezas"
+    },
+        {
+        id: 10,
+        name: "Accesorios",
+        description: "Todo para tu baño",
+        stock: 16,
+        image: "/image/accesorios.jpg",
+        price: 2000,
+        category: "Accesorios"
+    },
+
     
 ]
 

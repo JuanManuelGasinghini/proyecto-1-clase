@@ -1,0 +1,95 @@
+.CarritoVacio{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.CarritoVacioTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.VerProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: solid 
+2px;
+font-size: 26px;
+margin: 5%;
+padding: 5%;
+}
+
+.VistaDelCarrito{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: solid 2px;
+}
+
+.VistaDelCarritoCard{
+display: flex;
+flex-direction: row;
+padding: 5px;
+margin: 5px;
+    box-sizing: border-box;
+    border: solid 2px;
+}
+
+.VistaDelCarritoData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+margin: 10px;
+padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px;
+}
+
+.EliminarVsta{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: solid 2px;
+font-size: 18px;
+margin: 5%;
+padding: 5%;
+
+}
+
+.CierreDelCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CPrecioTotal{
+    display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+border: solid 2px;
+margin: 5px;
+padding: 5px;
+}
+
+.BotonDeCierre{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: solid 2px;
+font-size: 20px;
+margin: 5%;
+padding: 5%;
+}
+
