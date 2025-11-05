@@ -1,0 +1,45 @@
+.PanelDeCompra{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+        box-sizing: border-box;
+    border-style: double;
+}
+
+.PanelCantidad{
+    display: flex;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+   font-weight: bold;
+    background-color: hsl(63, 90%, 50%);
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.PanelRestar{
+    display: flex;
+        margin: 10px;
+    padding: 10px;
+justify-content: center;
+}
+
+.PanelSumar{
+    display: flex;
+        align-items: center;
+            margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.PanelAdd{
+    display: flex;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+   font-weight: bold;
+    background-color: hsl(63, 90%, 50%);
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+}

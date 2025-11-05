@@ -12,14 +12,14 @@ const ItemDetail = ( {product}) => {
  addProduct(newProduct);
     }
     return (
-        <div className="item-detail">
-            <div className="item-detail-image-content">
-            <img src={product.image} className="item-detail-image" alt="" />
+        <div className="itemDetail">
+            <div className="itemDetailImageContent">
+            <img src={product.image} className="itemDetailImage" alt="" />
             </div>
-            <div className="itemD-data">
-            <h2 className="itemD-name">{product.name}</h2>
-            <h2 className="itemD-description">{product.description}</h2>
-            <h3 className="itemC-precio">Precio {product.price}</h3>
+            <div className="itemDData">
+            <h2 className="itemDName">{product.name}</h2>
+            <h2 className="itemDescription">{product.description}</h2>
+            <h3 className="itemCPrecio">Precio: {product.price}</h3>
             <ItemCount stock={product.stock} addToCart={addToCart} />
             </div>
         </div>

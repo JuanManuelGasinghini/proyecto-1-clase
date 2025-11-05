@@ -1,8 +1,8 @@
 .itemlistcontainer{
     display: flex;
     flex-direction: column;
-   color: tomato;
-    background-color: rgb(55, 0, 255);
+   color: rgb(11, 4, 117);
+    background-color: rgba(15, 200, 228, 0.84);
     align-items: center;
     font-size: 2rem;
 }
@@ -10,11 +10,11 @@
 
 .loading{
     display: flex;
-    color: violet;
+    color: rgb(11, 4, 117);
 }
 
 .cargando{
     display: flex;
-color: tomato;
+color: rgb(11, 4, 117);
     font-size: 1.5rem;
 }
