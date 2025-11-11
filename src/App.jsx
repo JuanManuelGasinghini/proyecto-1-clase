@@ -13,8 +13,7 @@ function App() {
     <div className='app'>
       <BrowserRouter>
       <CartProvider>
-        <NavBar />
-        
+        <NavBar/>
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={ "Nuestros Productos" } />} />
           <Route path="/category/:categoryId" element={<ItemListContainer greeting={ "Bienvenidos a la tienda" } />} />
