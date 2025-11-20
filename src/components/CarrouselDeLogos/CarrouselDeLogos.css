@@ -1,0 +1,9 @@
+.Titulo{
+    display: flex;
+    color: bisque;
+}
+
+.Marquee {
+    display: flex;
+ /*   "max-w-5x1 mx-auto" */
+}

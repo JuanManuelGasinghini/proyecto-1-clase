@@ -1,10 +1,10 @@
 const products = [
     {
         id: 1,
-        name: "Cañerias",
+        name: "Canñerias",
         description: "Caños de termofusión",
         stock: 5,
-        image: "/image/monoComando.jpg",
+        image: "/image/accesorios.jpg",
         price: 540,
         category: "Cañerias"
     },
@@ -67,7 +67,7 @@ const products = [
         name: "Pileta de Lavadero",
         description: "Todo para tu baño",
         stock: 16,
-        image: "/image/accesorios.jpg",
+        image: "/image/monoComando.jpg",
         price: 2000,
         category: "Bachas"
     },

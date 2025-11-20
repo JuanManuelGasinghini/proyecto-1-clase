@@ -46,7 +46,7 @@ console.log(error)
     } else{
   getProducts();
   }
-  }, []);
+  }, [category]);
     return (
    <div className="itemlistcontainer">
       <h2>{greeting}</h2>

@@ -1,0 +1,46 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: lightgray;
+ 
+
+}
+
+.FullName{
+background-color: white;
+display: flex;
+justify-content: center;
+width: 50%;
+height: 25%;
+}
+
+.Phone{
+background-color: white;
+display: flex;
+justify-content: center;
+width: 50%;
+}
+
+.Email{
+background-color: white;
+display: flex;
+justify-content: center;
+width: 50%;
+}
+
+.ConfirmEmail{
+background-color: white;
+display: flex;
+justify-content: center;
+width: 50%;
+}
+
+.Send{
+background-color: white;
+display: flex;
+justify-content: center;
+width: 50%;
+}

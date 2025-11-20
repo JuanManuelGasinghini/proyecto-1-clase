@@ -1,11 +1,10 @@
 import LogoFinal from "../../assets/img/LogoFinal.png";
-import CartWidget from "../CartWidget/CartWidget";
 import { Link } from "react-router-dom";
-import "./navBar.css";
+import "./Footer.css";
 
-const NavBar = () => {
-  return (
-    <nav className="navbar">
+const Footer = () => {
+   return (
+    <nav className="Footer">
       <Link to="/">
         <img className="logo" src={LogoFinal} alt="" />
       </Link>
@@ -24,11 +23,8 @@ const NavBar = () => {
           <Link to="/category/Piezas" className="category" >Piezas</Link>
         </li>
       </ul>
-<div className="NavBarCart">
-      <CartWidget />
-      </div>
     </nav>
   )
 }
 
-export default NavBar
+export default Footer
