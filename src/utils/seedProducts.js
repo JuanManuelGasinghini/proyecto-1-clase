@@ -1,6 +1,9 @@
-import db from "../db/db.js";
+import { db } from "../db/db.js";
 import { collection, addDoc } from "firebase/firestore";
 //import data from "../data/products.json" assert { type: "json" };
+
+
+
 
 const products = [   
      {

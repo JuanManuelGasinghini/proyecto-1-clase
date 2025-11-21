@@ -1,7 +1,7 @@
 import { BiCart } from 'react-icons/bi';
 import { useContext } from 'react';
 import { cartContext } from '../../context/CartContext';
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './CartWidget.css'
 
 const CartWidget = () => {

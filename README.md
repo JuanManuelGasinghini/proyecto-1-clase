@@ -1,2 +1,2 @@
-Entrega N°1 de la Comisión 88020 del curso de React Js de Coderhouse
+Proyecto Final de la Comisión 88020 del curso de React Js de Coderhouse
 Alumno Gasinghini Juan Manuel

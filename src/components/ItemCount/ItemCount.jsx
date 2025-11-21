@@ -1,26 +1,28 @@
 import {useState } from 'react'
+import { BiSolidMessageSquareAdd } from "react-icons/bi";
+import { BiSolidMessageSquareMinus } from "react-icons/bi";
 import "./ItemCount.css"
 
 const ItemCount = ({ stock, addToCart }) => {
   const [count, setCount] = useState(1);
 
-  const handleClickRestar = () => {
+  const handleClickSumar = () => {
+if (count < stock){
+    setCount(count + 1);
+  }
+}
+ const handleClickRestar = () => {
     if(count > 1) {
     setCount(count - 1);
   }
   }
 
-  const handleClickSumar = () => {
-if (count < stock){
-    setCount(count + 1);
-  }
-  }
-
+  
   return (
     <div className='PanelDeCompra'>
-       <button onClick={handleClickRestar} className='PanelRestar'>-</button>
+       <button onClick={handleClickSumar} className='PanelSumar'><BiSolidMessageSquareAdd /></button>
        <p className='PanelCantidad'>{count}</p>
-       <button onClick={handleClickSumar} className='PanelSumar'>+</button>
+       <button onClick={handleClickRestar} className='PanelRestar'><BiSolidMessageSquareMinus /></button>
 
        <button onClick={ () => addToCart(count) } className='PanelAdd'>Agregar al carrito</button>
     </div>
