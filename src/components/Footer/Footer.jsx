@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
-   return (
+  return (
     <nav className="Footer">
       <Link to="/">
         <img className="logo" src={LogoFinal} alt="" />
@@ -19,7 +19,7 @@ const Footer = () => {
         <li>
           <Link to="/category/Accesorios" className="category" >Accesorios</Link>
         </li>
-                <li>
+        <li>
           <Link to="/category/Piezas" className="category" >Piezas</Link>
         </li>
       </ul>

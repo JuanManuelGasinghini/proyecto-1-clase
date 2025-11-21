@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import ItemList from '../Itemlist/Itemlist.jsx';
 import { useParams } from 'react-router-dom';
-import {collection, getDocs, query, where} from "firebase/firestore";
+import { collection, getDocs, query, where } from "firebase/firestore";
 import db from "../../db/db.js";
 import './ItemListContainer.css';
 
@@ -9,46 +9,46 @@ const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const { category } = useParams();
-  const productsRef = collection (db, "products");
+  const productsRef = collection(db, "products");
 
-  const getProducts = async() => {
+  const getProducts = async () => {
     try {
-const dataDb = await getDocs(productsRef);
-const data = dataDb.docs.map( (productDb) => {
-  return { id: productDb.id, ...productDb.data() };
-});
-setProducts(data);
+      const dataDb = await getDocs(productsRef);
+      const data = dataDb.docs.map((productDb) => {
+        return { id: productDb.id, ...productDb.data() };
+      });
+      setProducts(data);
     } catch (error) {
       console.log("Error al obtener los productos", error)
     } finally {
-      setLoading (false);
+      setLoading(false);
     }
   }
- 
-const getProductsByCategory = async () => {
-try {
-const q = query(productsRef, where("category", "==", category));
-const dataDb = await getDocs(q);
-const data = dataDb.docs.map( (productDb) => {
-  return { id: productDb.id, ...productDb.data() };
-});
-setProducts(data);
-} catch (error) {
-console.log(error)
-}finally { 
-  setLoading (false);
-}
-}
+
+  const getProductsByCategory = async () => {
+    try {
+      const q = query(productsRef, where("category", "==", category));
+      const dataDb = await getDocs(q);
+      const data = dataDb.docs.map((productDb) => {
+        return { id: productDb.id, ...productDb.data() };
+      });
+      setProducts(data);
+    } catch (error) {
+      console.log(error)
+    } finally {
+      setLoading(false);
+    }
+  }
 
   useEffect(() => {
-    if (category){
+    if (category) {
       getProductsByCategory();
-    } else{
-  getProducts();
-  }
+    } else {
+      getProducts();
+    }
   }, [category]);
-    return (
-   <div className="itemlistcontainer">
+  return (
+    <div className="itemlistcontainer">
       <h2>{greeting}</h2>
       {
         loading ? <div className='Loading'><p className='cargando'>Cargando...</p></div> : <ItemList products={products} />

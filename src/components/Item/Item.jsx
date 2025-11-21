@@ -5,15 +5,15 @@ const Item = ({ product }) => {
 
   return (
     <li className="item">
-    <div className="ItemGeneral">
-      <img className="ItemProductIMG" src={product.image} alt="" />
+      <div className="ItemGeneral">
+        <img className="ItemProductIMG" src={product.image} alt="" />
       </div>
       <div>
-      <p className="ItemProductName">{product.name}</p>
-      <p className="ItemProductDescrip">{product.description}</p>
-      <p className="ItemProductPrecio">{product.price}</p>
-      <Link to={"/detail/"+product.id } className="ItemProductLink">Ver detalle</Link>
-    </div>
+        <p className="ItemProductName">{product.name}</p>
+        <p className="ItemProductDescrip">{product.description}</p>
+        <p className="ItemProductPrecio">{product.price}</p>
+        <Link to={"/detail/" + product.id} className="ItemProductLink">Ver detalle</Link>
+      </div>
     </li>
   )
 }

@@ -17,18 +17,18 @@ function App() {
   return (
     <div className='app'>
       <BrowserRouter>
-      <CartProvider>
-        <NavBar/>
+        <CartProvider>
+          <NavBar />
 
-        <Routes>
-          <Route path="/" element={<ItemListContainer greeting={ "Nuestros Productos" } />} />
-          <Route path="/category/:category" element={<ItemListContainer greeting={ "Bienvenidos a la tienda" } />} />
-          <Route path="/detail/:id" element={<ItemDetailContainer />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<CheckOut />} />
-          <Route path="*" element={ <div>404 NOT FOUND</div> } />
-        </Routes>
-         <Footer />
+          <Routes>
+            <Route path="/" element={<ItemListContainer greeting={"Nuestros Productos"} />} />
+            <Route path="/category/:category" element={<ItemListContainer greeting={"Bienvenidos a la tienda"} />} />
+            <Route path="/detail/:id" element={<ItemDetailContainer />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<CheckOut />} />
+            <Route path="*" element={<div>404 NOT FOUND</div>} />
+          </Routes>
+          <Footer />
         </CartProvider>
       </BrowserRouter>
     </div>

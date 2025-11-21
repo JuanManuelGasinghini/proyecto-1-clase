@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import './CartWidget.css'
 
 const CartWidget = () => {
-const { totalQuantity } = useContext(cartContext);
-const quantity = totalQuantity();
+  const { totalQuantity } = useContext(cartContext);
+  const quantity = totalQuantity();
 
   return (
     <Link to="/cart" className="cart-widget">
       <BiCart className='carrito' />
-        <p className="numeros">{quantity !== 0 && quantity }</p>
+      <p className="numeros">{quantity !== 0 && quantity}</p>
     </Link>
   )
 }

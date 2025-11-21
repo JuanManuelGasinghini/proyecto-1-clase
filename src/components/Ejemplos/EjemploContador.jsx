@@ -15,21 +15,15 @@ const EjemploContador = () => {
     setToggle(!toggle);
   }
 
-  //se ejecuta solo al montar el componente
-  //ej: llamadas a api, suscripciones a eventListener
-  useEffect(()=> {
+  useEffect(() => {
     console.log("1er useEffect");
   }, [])
 
-  //se ejecuta en el montaje y cada vez que "contador" cambie su valor
-  //ej: para realizar acciones especificas cuando una variable dependiente cambie
-  useEffect(()=> {
+  useEffect(() => {
     console.log("2do useEffect");
   }, [contador])
 
-  //se ejecuta en el montaje y cada vez que se actualice cualquier estado de mi componente
-  //ej: operaciones de monitoreo o registro, actualizaciones generales del componente
-  useEffect(()=> {
+  useEffect(() => {
     console.log("3er useEffect")
   })
 

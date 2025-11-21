@@ -20,12 +20,12 @@ const NavBar = () => {
         <li>
           <Link to="/category/Accesorios" className="category" >Accesorios</Link>
         </li>
-                <li>
+        <li>
           <Link to="/category/Piezas" className="category" >Piezas</Link>
         </li>
       </ul>
-<div className="NavBarCart">
-      <CartWidget />
+      <div className="NavBarCart">
+        <CartWidget />
       </div>
     </nav>
   )

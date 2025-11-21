@@ -2,7 +2,7 @@ import { useEffect } from "react"
 
 const EjemploTitulo = () => {
 
-  useEffect(()=> {
+  useEffect(() => {
 
     const mostrarAnchoVentana = () => {
       console.log("Ancho: ", window.innerWidth);
