@@ -1,0 +1,40 @@
+# Archivo: /public/robots.txt
+
+# Permitir a todos por defecto
+User-agent: *
+Allow: /
+
+# Bloquear rutas no indexables
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+Disallow: /search/
+Disallow: /wishlist/
+
+# Evitar sobre-crawling de parámetros comunes (ajusta a tus query params reales)
+# Google soporta * y $ en robots.txt
+Disallow: /*?*utm_*
+Disallow: /*?*sessionId=*
+Disallow: /*?*sort=*
+Disallow: /*?*page=*
+Disallow: /*?*view=grid*
+Disallow: /*?*debug=*
+
+# Importante: no bloquees recursos necesarios para renderizado
+Allow: /static/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Declara tu sitemap (ajusta la URL real)
+Sitemap: https://tu-dominio.com/sitemap.xml
+
+# Nota: Google ignora Crawl-delay; Bing y otros pueden respetarlo.
+# Crawl-delay: 5

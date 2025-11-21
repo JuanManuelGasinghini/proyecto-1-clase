@@ -1,0 +1,29 @@
+# Archivo: /public/llms.txt
+# Declaración de política para modelos de lenguaje (no estándar, informativa)
+
+Owner: Empresa Ejemplo S.A.
+Contact: legal@tu-dominio.com
+Policy: El contenido público de este sitio NO está autorizado para entrenamiento de modelos de IA.
+
+# Agentes conocidos y preferencia de acceso/uso (los nombres pueden cambiar)
+Agent: GPTBot
+Allow: /           # acceso para navegación básica
+Use: no-train      # no usar para entrenamiento
+
+Agent: ClaudeBot
+Allow: /           # acceso para navegación básica
+Use: no-train
+
+Agent: CCBot
+Allow: /           # Common Crawl: acceso
+Use: no-train
+
+Agent: PerplexityBot
+Disallow: /        # no acceder
+
+Agent: Google-Extended
+Disallow: /        # no usar contenido extendido para IA
+
+# Recursos alternativos (si los ofreces)
+Data-Portal: https://tu-dominio.com/data-portal
+Terms: https://tu-dominio.com/terminos
