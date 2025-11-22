@@ -4,6 +4,8 @@ import { addDoc, collection } from "firebase/firestore";
 import db from "../../db/db.js";
 import FormCheckout from "../FormCheckout/FormCheckout";
 
+import "./CheckOut.css";
+
 const CheckOut = () => {
 
     const [dataForm, setDataForm] = useState({
@@ -45,9 +47,9 @@ const CheckOut = () => {
         <div>
             {
                 orderId ? (
-                    <div>
-                        <h2>Orden Generada Correctamente</h2>
-                        <p>guarde el identificador de su compra: {orderId}</p>
+                    <div className="Order">
+                        <h2 className="TitleOrder">Orden Generada Correctamente</h2>
+                        <p className="TextOrder">guarde el identificador de su compra: {orderId}</p>
                     </div>
                 ) : (
                     <FormCheckout dataForm={dataForm} handleChangeInput={handleChangeInput} senOrder={senOrder} />

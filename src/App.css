@@ -1,6 +1,7 @@
 .app {
     display: flex;
     flex-direction: column;
+
     background-color: aqua;
     background-repeat: no-repeat;
     background-position: start;

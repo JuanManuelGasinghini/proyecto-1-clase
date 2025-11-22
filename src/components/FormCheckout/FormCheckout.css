@@ -3,44 +3,104 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    background-color: lightgray;
- 
-
+    gap: 1.2rem;
+    background-color: #E2F2FD;
+    max-width: 420px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.FullName{
-background-color: white;
-display: flex;
-justify-content: center;
-width: 50%;
-height: 25%;
+.FullName {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #90CAF9;
+    font-size: 1rem;
+    transition: border 0.25s, box-shadow 0.25s ease;
 }
 
-.Phone{
-background-color: white;
-display: flex;
-justify-content: center;
-width: 50%;
+.FullName :focus {
+    border-color: #42A5F5;
+    box-shadow: 0 0 3px rgba(30, 136, 229, 0.25);
+    outline: none;
 }
 
-.Email{
-background-color: white;
-display: flex;
-justify-content: center;
-width: 50%;
+.Phone {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #90CAF9;
+    font-size: 1rem;
+    transition: border 0.25s, box-shadow 0.25s ease;
 }
 
-.ConfirmEmail{
-background-color: white;
-display: flex;
-justify-content: center;
-width: 50%;
+.Phone:focus {
+    border-color: #42A5F5;
+    box-shadow: 0 0 3px rgba(30, 136, 229, 0.25);
+    outline: none;
 }
 
-.Send{
-background-color: white;
-display: flex;
-justify-content: center;
-width: 50%;
+.Email {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #90CAF9;
+    font-size: 1rem;
+    transition: border 0.25s, box-shadow 0.25s ease;
+}
+
+.Email :focus {
+    border-color: #42A5F5;
+    box-shadow: 0 0 3px rgba(30, 136, 229, 0.25);
+    outline: none;
+}
+
+.ConfirmEmail {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #90CAF9;
+    font-size: 1rem;
+    transition: border 0.25s, box-shadow 0.25s ease;
+}
+
+.ConfirmEmail :focus {
+    border-color: #42A5F5;
+    box-shadow: 0 0 3px rgba(30, 136, 229, 0.25);
+    outline: none;
+}
+
+.Send {
+    padding: 0.9rem;
+    border: none;
+    border-radius: 12px;
+    background: #42A5F5;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.1s ease;
+}
+
+.Send:hover {
+    background: #1E88E5;
+    transform: translateY(-1px);
+}
+
+.Send:active {
+    transform: translateY(1px);
 }
