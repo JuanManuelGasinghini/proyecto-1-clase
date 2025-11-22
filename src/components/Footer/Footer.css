@@ -1,5 +1,5 @@
 .Footer {
-  background-image: url(../../assets/img/Fondo.png);
+  background-image: url("/image/Fondo.png");
   display: flex;
   justify-content: space-between;
   border-bottom: 5px solid rgb(56, 6, 6);
